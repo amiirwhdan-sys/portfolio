@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Amir_Full_Stack.pdf";
+import pdf from "../../Assets/Amir_Full_Stackk.pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -30,6 +30,8 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          <p>(just download  to see the full cv)</p>
+
         </Row>
 
         <Row className="resume">
@@ -48,6 +50,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          <p>(just download  to see the full cv)</p>
         </Row>
       </Container>
     </div>
