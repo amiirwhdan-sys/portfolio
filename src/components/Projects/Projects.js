@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import movies from "../../Assets/Projects/2024-09-28 (3).png";
 import market from "../../Assets/Projects/2024-09-28 (11).png";
 import Chat_App from "../../Assets/screenshot-2026-07-17_17-58-54.png";
+import security from "../../Assets/screenshot-2026-07-29_16-11-46.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -72,6 +73,26 @@ function Projects() {
             />
           </Col>
 
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={security}
+              isBlog={false}
+              title="Security With Stripe Payment (Full Stack)"
+              description="I used React 19, NestJS, and MongoDB to build this project.
+              The entire website is responsive. This project is a secure
+              authentication and authorization system that allows users to
+              sign up and log in through multiple methods, including traditional
+              credentials and OAuth via Google, GitHub, and LinkedIn. It features
+              JWT-based session management, encrypted password storage with bcrypt,
+              role-based access control, and integrated Stripe payments for secure
+              transactions, all built with a modern, fully responsive UI powered
+              by Tailwind CSS."
+              ghLink="https://github.com/Amir-017/securityAndStripe"
+              demoLink="https://security-and-stripe.vercel.app"
+            />
+          </Col>
 
         </Row>
       </Container>
