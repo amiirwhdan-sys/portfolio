@@ -69,7 +69,7 @@ function Projects() {
               multiple languages. It features image sharing, API documentation,
               and live communication powered by Socket.io, deployed on AWS EC2."
               ghLink="https://github.com/Amir-017/Chat_App_Test_For_Learning_ITI"
-              demoLink="http://56.228.69.122/sign-in"
+              demoLink="https://drive.google.com/file/d/1bvlQKkcH5294PlaQARI2rV2anIXqp950/view?usp=sharing"
             />
           </Col>
 
